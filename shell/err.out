@@ -1,0 +1,42 @@
+##########################################################################
+# File Name: 1.sh
+#Author: luqi
+# Created Time: 2019年07月10日 星期三 18时21分26秒
+#########################################################################
+#!/bin/zsh
+PATH=/home/edison/bin:/home/edison/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/work/tools/gcc-3.4.5-glibc-2.3.6/bin
+export PATH
+
+var="luqi"
+
+echo $var
+echo var
+
+echo -n "first name:"
+
+echo  "first name:"
+##########################################################################
+# File Name: 2.sh
+#Author: luqi
+# Created Time: 2019年07月10日 星期三 19时11分36秒
+#########################################################################
+#!/bin/zsh
+
+#param
+echo "shell name $0"
+echo "param1:$1"
+echo "param2:$2"
+echo "param3:$3"
+echo "param4:$4"
+echo "param5:$5"
+
+
+##########################################################################
+# File Name: 3.sh
+#Author: luqi
+# Created Time: 2019年07月10日 星期三 19时16分01秒
+#########################################################################
+#!/bin/zsh
+
+#param.sh
+find ./ -name "$1" -print 
